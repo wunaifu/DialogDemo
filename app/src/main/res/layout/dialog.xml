@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="信息提示"
+            android:textSize="16sp"
+            android:textColor="#219ac6"
+            android:layout_marginLeft="5dip"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="是否确定删除该条消息,请确认"
+        android:textColor="#686767"
+        android:textSize="15sp" />
+    <View
+        android:layout_margin="5dp"
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/bt_sure"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="确定"
+                android:textSize="16sp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/bt_cancel"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="取消"
+                android:textSize="16sp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

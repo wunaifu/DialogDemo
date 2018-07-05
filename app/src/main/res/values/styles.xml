@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialogui_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!--底部弹框-->
+    <style name="dialogfooter" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialogui_bg2</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>
