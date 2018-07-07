@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
     public void dialogUI5(View v){
         final Dialog dialog;
         View diaView=View.inflate(MainActivity.this, R.layout.dialogui_loading_vertical, null);
-        //diaView.getBackground().setAlpha(250);
+        diaView.getBackground().setAlpha(200);
         dialog=new Dialog(MainActivity.this,R.style.dialog);
         dialog.setContentView(diaView);
         dialog.show();

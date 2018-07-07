@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="#00000000"
-                android:orientation="vertical">
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/dialogui_ll_bg"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
@@ -17,11 +17,11 @@
 
         <ProgressBar
             android:id="@+id/pb_bg"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:layout_gravity="center_horizontal"
             android:indeterminateDrawable="@drawable/dialogui_rotate_mum_light"
-            android:indeterminateDuration="1200"/>
+            android:indeterminateDuration="1200" />
 
         <TextView
             android:id="@+id/dialogui_tv_msg"
@@ -36,7 +36,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="加载中..."
-            android:textColor="@color/text_black"/>
+            android:textColor="@color/text_black" />
 
     </LinearLayout>
 
