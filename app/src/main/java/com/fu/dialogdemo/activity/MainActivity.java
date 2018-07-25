@@ -180,4 +180,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, SpinnerSActivity.class);
         startActivity(intent);
     }
+
+    public void dialogUI9(View v) {
+        final Dialog dialog0;
+        View diaView = View.inflate(MainActivity.this, R.layout.dialogui_time_center, null);
+        dialog0 = new Dialog(this, R.style.dialognobg);
+        dialog0.setContentView(diaView);
+        dialog0.show();
+    }
 }

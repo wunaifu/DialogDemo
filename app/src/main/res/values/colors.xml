@@ -23,4 +23,8 @@
 
     <color name="text1">#59B29C</color>
     <color name="text2">#333333</color>
+
+    <color name="def_wheel_color">#00000000</color><!--透明-->
+    <color name="def_reached_color">#00000000</color>
+    <color name="def_pointer_color">#ffbe44</color>
 </resources>
